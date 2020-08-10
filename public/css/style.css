@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background-color: blue;
+    font-family: 'Press Start 2P', cursive;
+}
+.main-card { 
+    border: 4px solid red;
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#name {
+    font-size: 3rem;
+}
+.well,
+.pokedex {
+    border: 4px solid yellow;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h2 {
+    color: white;
+}
+.pokedex {
+    font-size: 2rem;
+    margin: 10px 200px;
+}
+
+.waves-effect {
+   border-radius: 5px;
+   font-family: monospace;
+   text-align: center;
+}

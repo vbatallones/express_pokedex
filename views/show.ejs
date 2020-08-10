@@ -1,0 +1,22 @@
+<h1>Got 'Em</h1>
+
+
+<div class="main-card">
+    <div id="card">
+        <div id="name"><%= pokedata.name  %> 
+          <span id="symbol"><img src="https://img.icons8.com/color/48/000000/open-pokeball--v2.png"/></span>
+        </div>
+        <div id="pic">
+            <img src="<%= pokedata.sprites.front_default %>" alt="pokemon image">
+    </div>
+    </div>
+    <div id="description">
+      <div>Description</div>
+      <ul>
+          <li>Type: <%= pokedata.types[0].type.name %></li>
+          <li>Ability: <%= pokedata.abilities[0].ability.name %> </li>
+          <li>Height: <%= pokedata.height %> </li>
+          <li>Weight: <%= pokedata.weight %> </li>
+      </ul>
+    </div>
+</div>
